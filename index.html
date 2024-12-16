@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather App</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg main-bg-color py-5" id="nav">
+        <div class="container">
+            <img src="images/logo@2x.png" alt="weather-logo" width="64px" height="38px">
+            <div class="logo-items d-flex flex-column justify-content-center align-items-start ms-3">
+
+                <a class="navbar-brand text-white fw-bold fs-6 text-capitalize" href="#">weather</a>
+                <span class="text-white text-capitalize">tagline goes here</span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-5">
+                        <a class="nav-link active text-capitalize" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link text-capitalize" href="#">news</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link text-capitalize" href="#">live cameras</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link text-capitalize" href="#">photos</a>
+                    </li>
+                    <li class="nav-item ms-5">
+                        <a class="nav-link text-capitalize" href="#">contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+
+
+
+        <section class="weather-content w-100 mt-5">
+
+            <div class="container" id="container">
+
+                <div class="d-flex align-items-center inputs ">
+
+                    <input type="search" class="form-control" id="inputSearch" placeholder="Find Your Location...">
+
+                    <button type="submit" class="btn mb-3 text-capitalize" id="findBtn">find</button>
+                </div>
+
+
+
+                <div class="cards mt-5">
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4" id="cardGroup">
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+    <footer class="d-flex align-items-center justify-content-center">
+        <div class="container">
+
+            <div class="row ">
+                <div class="col-md-6 mb-3">
+                    <div class="d-flex align-items-center footer-input mb-3">
+
+                        <input type="search" class="form-control" id="" placeholder="Find Your Location...">
+
+                        <button type="submit" class="btn mb-3 text-capitalize text-clr" id="findFooter">find</button>
+                    </div>
+                    <div>
+                        <p class="secundry-colo ms-4">Copyright 2014 Company name. Designed by Themezy. All rights
+                            reserved</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-icons d-flex align-items-center justify-content-center">
+                        <div class="circle main-bg-color d-flex align-items-center justify-content-center me-3">
+                            <a href="#">
+
+                                <i class="fa-brands fa-facebook-f text-clr"></i>
+                            </a>
+                        </div>
+                        <div class="circle main-bg-color d-flex align-items-center justify-content-center me-3">
+                            <a href="#">
+
+                                <i class="fa-brands fa-twitter text-clr"></i>
+                            </a>
+                        </div>
+                        <div class="circle main-bg-color d-flex align-items-center justify-content-center me-3">
+                            <a href="#">
+
+                                <i class="fa-brands fa-google-plus-g text-clr"></i>
+                            </a>
+                        </div>
+                        <div class="circle main-bg-color d-flex align-items-center justify-content-center">
+                            <a href="#">
+
+                                <i class="fa-brands fa-pinterest text-clr"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

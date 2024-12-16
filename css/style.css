@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+.main-bg-color {
+    background-color: #1E202B;
+}
+
+.text-clr {
+    color: #009ad8;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #1E202B;
+
+}
+
+.secundry-colo {
+    color: #BFC1C8;
+}
+
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.currentTemp {
+    font-size: 4.375rem;
+}
+
+#nav .logo-items span {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+    width: 100%;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    padding: 5px 25px;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    border-radius: 30px;
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+
+
+.navbar-nav .nav-item .nav-link:hover {
+    border: 3px solid #009ad8;
+    border-radius: 30px;
+    color: #009ad8;
+}
+
+
+
+
+
+.weather-content {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+
+    top: 50%;
+    left: 0;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+
+
+.form-control {
+
+    padding: 20px 50px 20px 20px;
+    border-radius: 30px;
+    background-color: #1E202B;
+    border: #1E202B solid var(--bs-border-color);
+    color: #fff;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #1E202B;
+    border-color: #1E202B;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem transparent;
+}
+
+.form-control::placeholder {
+    color: rgba(127, 127, 127, 0.601);
+}
+
+.inputs {
+    position: relative;
+}
+
+#findBtn {
+    position: absolute;
+    right: 12px;
+    top: 4px;
+    padding: .875rem 3.0625rem;
+    border-radius: 45px;
+    background-color: #009ad8;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+#findBtn:hover,
+#findFooter:hover {
+    background-color: hsl(197, 74%, 64%);
+}
+
+#findBtn:focus {
+    border: none;
+}
+
+
+
+.icon-img {
+    width: 60px;
+}
+
+
+.crd-1 {
+    background-color: #323544;
+}
+
+.crd-2 {
+    background-color: #262936;
+}
+
+
+.head-crd-1 {
+    background-color: #2D303D;
+}
+
+.head-crd-2 {
+    background-color: #222530;
+}
+
+
+footer {
+    background-color: #262936;
+
+    margin-top: 90px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.footer-input {
+    position: relative;
+}
+
+#findFooter {
+    position: absolute;
+    right: 3px;
+    bottom: -10px;
+    padding: 14px 49px;
+    border-radius: 45px;
+    background-color: #009ad8;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+footer .circle,
+footer .circle a i {
+    transition: 0.3s ease-in-out;
+}
+
+footer .circle:hover {
+    background-color: #009ad8;
+}
+
+footer .circle:hover i {
+    color: #fff;
+}
